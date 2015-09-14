@@ -1,0 +1,138 @@
+/* for setting max container width */
+@media (min-width: 1200px) {
+  .container {
+    width: 920px;
+  }
+}
+
+
+
+body {
+    padding-top: 15px;
+    padding-bottom: 20px;
+
+    /*background-color: #272B30;*/
+    /*background-color: #191919;*/
+    /*background-color: #323232;*/
+    background-color: #262626;
+
+    /*background-image: url('/static/images/background/dark-wood.jpg');*/
+    /*padding-top:0px;*/
+}
+
+p{
+	color: #C8C8C8;
+}
+
+
+
+/*
+.navbar{
+	*background-color: #AD1D28;*
+  	*border-color: #911821;*
+
+  	margin-bottom: 20px;
+  	border: none;
+}
+*/
+.navbar{
+	background-color: inherit;
+  	border-color: #FFF;
+
+  	margin-bottom: 20px;
+  	border: none;
+}
+
+
+/*.nav-link-text{color:#E18A07;}*/
+
+/*
+.nav-link{
+    color:#E18A07;
+    font-weight:800;
+    display:inline;
+}
+*/
+
+/*
+.nav-link-spacer{
+    padding-left:10px;
+    padding-right:10px;
+    color:#E18A07;
+    font-weight:800;
+    display:inline;
+}
+*/
+
+
+/*******************
+** Navbar links
+*******************/
+
+/* active link */
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    font-size: 15px;
+    font-family: 'Sintony', Helvetica, sans-serif;
+    font-weight: 800;
+    color: #e5e5e5;
+    letter-spacing: 1px;
+    background-color: inherit;
+}
+
+/* non-active link */
+.navbar-default .navbar-nav > li > a {
+    font-size: 15px;
+    font-family: 'Sintony', Helvetica, sans-serif;
+    font-weight: 800;
+    color: #e5e5e5;
+    letter-spacing: 1px;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #e5e5e5;
+    border-bottom: 2px;
+    border-color: red;
+    text-decoration: underline;
+    padding-bottom: 10px;
+}
+
+/*.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #555;
+    background-color: #D5D5D5;
+}*/
+
+
+
+
+.standard
+{
+    font-family:Arial Black;
+    font-size:14pt;
+    color:#f2f2f2;
+}
+
+
+
+hr.style-two {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+
+
+
+/*
+@font-face {
+    font-family: Test;
+
+    src: url(/static/fonts/AlexBrush-Regular.ttf);
+    
+    font-weight:400;
+}
+*/
